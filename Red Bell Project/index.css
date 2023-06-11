@@ -1,0 +1,762 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        box-sizing: border-box;
+}
+
+.container1 {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Close\ modal.png);
+        background-size: 1600px 1600px;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+}
+
+.nav-area {
+        height: 8%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+}
+
+.logo {
+        width: 150px;
+        cursor: pointer;
+        margin-top: 10px;
+
+}
+
+
+.search-bar {
+        width: 20%;
+        margin-bottom: 100px;
+        background: rgba(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        border-radius: 70px;
+        padding: 10px 20px;
+        backdrop-filter: blur(2px) saturate (180%);
+
+}
+
+.search-bar input {
+        height: 5%;
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 2px;
+        font-size: 12px;
+        border-color: #333;
+}
+
+::placeholder {
+        color: #b4b4ff;
+}
+
+.search-bar button img {
+        width: 20px;
+
+}
+
+.search-bar button {
+        border: 0;
+        border-radius: 0%;
+        width: 0px;
+        height: 20px;
+        cursor: pointer;
+        margin-right: 10px;
+}
+
+form {
+
+        display: flex;
+        position: absolute;
+        left: 40%;
+        top: 25%;
+}
+
+nav {
+        display: flex;
+        padding: auto;
+        flex: 1;
+        text-align: right;
+        margin-top: 0;
+        justify-content: end;
+        position: relative;
+}
+
+nav ul li {
+
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+        padding: 5px;
+        margin-top: 10px;
+        z-index: 1;
+
+}
+
+nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        margin: 0px;
+        padding: 10px;
+
+}
+
+nav li a:hover {
+        background: #ffff;
+        color: #333;
+        padding: auto;
+
+}
+
+.welcome-text {
+        position: absolute;
+        margin-top: 30%;
+        text-align: center;
+        margin: 100px;
+
+}
+
+.welcome-text h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 60px;
+        color: rgb(255, 2, 2);
+}
+
+.welcome-text a {
+        border: 1px solid #fff;
+        padding: 10px 25px;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 20px;
+        color: #fff;
+        display: inline-block;
+        border-radius: 20px;
+}
+
+.welcome-text a:hover {
+        background: #fff;
+        color: #333;
+}
+
+.welcome-text p {
+        color: rgb(255, 255, 255);
+        font-size: larger;
+        word-spacing: 8px;
+        line-height: 40px;
+}
+
+.card {
+        width: 250px;
+        height: 400px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        margin-top: 500px;
+        margin-right: 50px;
+        margin-left: 70px;
+        transition: transform 0.3s;
+
+}
+
+.card1 {
+        background-image: url(./T-shirt.jpg);
+}
+
+.card2 {
+        background-image: url(./NEW\ T-SHIRT\ 1.jpg);
+}
+
+.card3 {
+        background-image: url(./clothes=2.jpg);
+}
+
+.card4 {
+        background-image: url(./CLOTHES-3.jpg);
+}
+
+.card:hover {
+        transform: scale(1.3);
+}
+
+.card p {
+        font-size: 10px;
+        height: 2px;
+}
+
+h5 {
+        color: rgb(221, 212, 212);
+        text-shadow: 0 0 5px rgb(4, 4, 4);
+}
+
+.colorful {
+        background-image: url(./pngtree-blue-purple-gradient-cool-fashion-banner-background-image_164816.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+}
+
+h3 {
+
+
+        padding: 50px;
+        color: #ffffff;
+        text-transform: capitalize;
+        padding-left: 10px;
+}
+
+.side-heading {
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+}
+
+.photo {
+        background-color: #333;
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: 100px;
+        background-repeat: no-repeat;
+
+}
+
+.spring {
+
+        height: 80%;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        filter: drop-shadow(20px 20px);
+        color: #4e5030;
+
+}
+
+.spring-font {
+        width: 90%;
+        font-size: 90px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 80%;
+        left: 10%;
+}
+
+h4 {
+        width: 85%;
+        font-size: 26px;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 75%;
+        left: 228px;
+        font-weight: 500;
+        color: #000000;
+}
+
+.spring-para {
+        width: 50%;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 65%;
+        left: 450px;
+        font-weight: 400;
+        margin-right: 50%;
+        color: #a4a496;
+}
+
+.logos {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 15px 15px;
+        background-position: center;
+        background-size: cover;
+        padding-left: 0%;
+        margin-right: 8%;
+        position: relative;
+        left: 15%;
+}
+
+.logos-background {
+        background-color: dimgray;
+}
+
+.logo1 {
+        background-image: url(./Westside\ Logo\(Aum\)_large.jpeg);
+}
+
+.logo2 {
+        background-image: url(./MAX-Fashions-3.png);
+}
+
+.logo3 {
+        background-image: url(./Adidas-logo.webp);
+}
+
+.logo4 {
+        background-image: url(./1215213452.pantaloons-big.jpg);
+}
+
+.olci {
+        background-color: rgb(184, 186, 186, 0.7);
+        border: 1px solid black;
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 5%;
+        font-size: 15px;
+        font-style: normal;
+}
+
+h2 {
+        position: relative;
+        left: 10px;
+        margin-top: 30px;
+
+}
+
+.olci li {
+        padding: 10px;
+        list-style: none;
+        font-weight: bolder;
+
+}
+
+.pants {
+        background-image: url(./4620254.jpg);
+        background-position: 0 0px;
+        background-size: 1550px;
+        background-repeat: no-repeat;
+        height: 80vh;
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid black;
+
+}
+
+.pants p {
+        background-color: rgb(184, 186, 186, 0.7);
+        height: 30px;
+        width: 45%;
+        margin: auto;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+
+
+}
+
+i {
+        color: rgb(255, 0, 0);
+        cursor: pointer;
+}
+
+.image {
+        position: relative;
+        width: 200px;
+}
+
+.img {
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+}
+
+.image-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.25s;
+}
+
+.image-tittle {
+        font-size: 1em;
+        font-weight: bold;
+}
+
+.image-overlay:hover {
+        opacity: 1;
+}
+
+.image-overlay>* {
+        transform: translateY(20px);
+        transition: transform 0.25s;
+}
+
+.image-overlay:hover>* {
+        transform: translateY(0);
+}
+
+.image__overlay-blur {
+        backdrop-filter: blur(5px);
+}
+
+.image-primary {
+        background: black;
+}
+
+.flex {
+        display: flex;
+        justify-content: space-around;
+}
+
+@media screen and (max-width:400px) {
+        .container1 {
+
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Close\ modal.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                box-sizing: border-box;
+                height: 100vh;
+                width: 100%;
+        }
+
+        .nav-area {
+                height: 8%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+        }
+
+        .logo {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 80px;
+                cursor: pointer;
+                margin-top: 10px;
+        }
+
+        .welcome-text {
+                position: absolute;
+                margin-top: 0%;
+                text-align: center;
+                margin: 10px;
+        }
+
+        .welcome-text h1 {
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 30px;
+                color: rgb(255, 2, 2);
+
+
+
+        }
+
+        .welcome-text p {
+                color: rgb(255, 255, 255);
+                font-size: 10px;
+                word-spacing: 5px;
+                line-height: 20px;
+        }
+
+        .welcome-text a {
+                border: 1px solid #fff;
+                padding: 10px 25px;
+                text-decoration: none;
+                font-size: 10px;
+                margin-top: 20px;
+                color: #fff;
+                display: inline-block;
+                border-radius: 20px;
+        }
+
+        form {
+
+                position: absolute;
+                left: 20%;
+                margin-top: 10px;
+
+        }
+
+        .search-bar {
+                width: 20%;
+                height: 10%;
+                background: rgba(255, 255, 255, 0.2);
+                display: flex;
+                align-items: center;
+                border-radius: 40px;
+                padding: 10px 5px;
+                backdrop-filter: blur(2px) saturate (180%);
+
+        }
+
+        .search-bar button img {
+                width: 8px;
+                height: 8px;
+                display: flex;
+                justify-content: end;
+                margin-bottom: 3%;
+        }
+
+        .search-bar input {
+                height: 0;
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 2px;
+                font-size: 5px;
+                border-color: #333;
+        }
+
+        nav ul li a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 5px;
+                margin: 0px;
+                padding: 0px;
+
+        }
+
+        .card {
+                width: 25%;
+                height: 20%;
+                /* display:inline-block; */
+                box-sizing: border-box;
+                cursor: pointer;
+                background-position: center;
+                background-size: cover;
+                margin-top: 250px;
+                transition: transform 0.3s;
+
+        }
+
+        .card2 {
+                margin: auto;
+
+        }
+
+        .card3 {
+                margin-top: 10%;
+
+        }
+
+        .card4 {
+                margin: auto;
+        }
+
+        .card p {
+                font-size: 5px;
+                height: 0px;
+                opacity: 0;
+                visibility: hidden;
+        }
+
+        .card h5 {
+                color: rgb(0, 0, 0);
+                font-size: 6px;
+                position: absolute;
+
+        }
+
+        .side-heading {
+                color: #000000;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: left;
+        }
+
+        .flex {
+                display: inline;
+
+        }
+
+        .colorful {
+                background-image: url(./pngtree-blue-purple-gradient-cool-fashion-banner-background-image_164816.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 150vh;
+        }
+
+        .image {
+                position: relative;
+                width: 150px;
+
+        }
+
+        img {
+                position: relative;
+                left: 80%;
+                width: 100%;
+                border-radius: 5px;
+                margin-bottom: 10px;
+        }
+
+        .image-overlay {
+                position: absolute;
+                top: 0%;
+                left: 80%;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.6);
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+                transition: opacity 0.25s;
+        }
+
+        .logos {
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 15px 15px;
+                background-position: center;
+                background-size: cover;
+                padding-left: 0%;
+                margin-right: 8%;
+                position: relative;
+                left: 15%;
+        }
+
+        .spring {
+                width: 60%;
+                height: 60%;
+                filter: drop-shadow(10px 10px);
+                color: #4e5030;
+                position: relative;
+                left: 15%;
+                top: 0;
+
+        }
+
+        .spring-font {
+                font-size: 25px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                display: flex;
+                justify-content: center;
+                position: relative;
+                top: 30%;
+        }
+
+        .photo {
+                background-color: #333;
+                height: 100%;
+
+        }
+
+        h4 {
+
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                position: relative;
+                left: 10px;
+                margin-top: 10px;
+                font-weight: 500;
+                color: #000000;
+        }
+
+        .spring-para {
+
+                font-size: 5px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                position: relative;
+                left: 5px;
+                font-weight: 400;
+                margin: auto;
+                color: #a4a496;
+                opacity: 0;
+                visibility: hidden;
+
+
+        }
+
+        .pants {
+                background-image: url(./4620254.jpg);
+                background-position: center;
+                background-size: 900px 500px;
+                background-repeat: no-repeat;
+                position: relative;
+                top: 0;
+                height: 60vh;
+                width: 100%;
+                box-sizing: border-box;
+                border: 1px solid black;
+        }
+
+        .olci {
+                background-color: rgb(184, 186, 186, 0.7);
+                border: 1px solid black;
+                background-position: center;
+                background-size: cover;
+                height: 50vh;
+                cursor: pointer;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin: auto;
+                font-size: 10px;
+                font-style: normal;
+        }
+
+        h2 {
+                font-size: 10px;
+        }
+
+        .pants p {
+                margin-bottom: 20px;
+                font-size: 7px;
+                font-weight: bold;
+                text-align: center;
+
+
+        }
+
+        i {
+                color: rgb(255, 0, 0);
+                cursor: pointer;
+        }
+
+
+
+
+
+
+
+}
